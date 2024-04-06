@@ -7,7 +7,7 @@ namespace L01P022021TH650.Models
         [Key]
         [Display(Name = "ID")]
         public int id { get; set; }
-        public string departamento { get; set; }
+        public string? departamento { get; set; }
 
     }
 }

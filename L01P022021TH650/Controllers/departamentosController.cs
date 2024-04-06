@@ -53,7 +53,7 @@ namespace L01P022021TH650.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,deparamento")] departamentos departamentos)
+        public async Task<IActionResult> Create([Bind("id,departamento")] departamentos departamentos)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace L01P022021TH650.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,deparamento")] departamentos departamentos)
+        public async Task<IActionResult> Edit(int id, [Bind("id,departamento")] departamentos departamentos)
         {
             if (id != departamentos.id)
             {
