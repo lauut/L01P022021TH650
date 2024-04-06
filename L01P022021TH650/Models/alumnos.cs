@@ -5,6 +5,7 @@ namespace L01P022021TH650.Models
     public class alumnos
     {
         [Key]
+        [Display(Name = "ID")]
         public int id { get; set; }
         public String codigo { get; set; }
         public String nombre { get; set; }
